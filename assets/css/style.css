@@ -181,6 +181,11 @@ html, body {
 }
 
 /* Navigation */
+
+.icon-bar {
+    background-color:#ffffff !important;
+ } 
+
 .navbar-nav > li > a {
     padding: 5px 0;
     font-weight: 600;
