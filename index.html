@@ -1,625 +1,681 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Folio - Personal Portfolio Template</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <title>paola Verrocchi</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> -->
 
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
 
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
 
-    <!-- Favicon
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- Stylesheets
-    ================================================== -->
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
+
 <body>
 
-    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(0,0,0,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(255, 255, 255, 0.1);">
-        <nav id="primary-navigation" class="site-navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
 
-                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                    <!-- <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a> -->
+        <!-- <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div> -->
 
-                </div><!-- /.navbar-header -->
+        <!-- <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div> -->
 
-                <div class="main-menu" id="portfolio-perfect-collapse">
+        <!-- nav-menu list-inline -->
+        <ul class="list-inline" style="width: 30vw;display:block; margin-left: auto; margin-right: auto;">
+          <li><a href="#header" class="smoothScroll">Inicio</a></li>
+          <li><a href="#about" class="smoothScroll">Sobre Mi</a></li>
+          <li><a href="#services" class="smoothScroll">CV</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portafolio</a></li>
+          <li><a href="#contact" class="smoothScroll">Contacto</a></li>
+        </ul>
 
-                    <ul class="nav navbar-nav">
-
-                        <li class="page-scroll"><a href="#hero">Inicio</a></li>
-                        <li class="page-scroll"><a href="#about">Sobre Mi</a></li>
-                        <li class="page-scroll"><a href="#service">CV</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Portafolio</a></li>
-                        <li class="page-scroll"><a href="#contact">Contacto</a></li>
-                        
-                    </ul><!-- /.navbar-nav -->
-
-                </div><!-- /.navbar-collapse -->
-
-            </div>
-        </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
-
-    <div id="hero" class="hero">
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
 
 
+  <!-- start section header -->
+  <div id="header" class="home">
 
-        <div class="container" style="padding-top: 25vh;">
-            <div class="row align-items-center">
-                <div class="col-6">
-                    <img src="assets/img/logo-paola.png" class="img-responsive center-block" alt="Sample Image">
-                </div>
-            </div>
+    <div class="container">
+      <div class="header-content text-center">
+        <img src="images/logo-paola.png" class="img-responsive" alt="me" style="display:block; margin-left: auto; margin-right: auto;height: 40%;">
+        <!-- <h1>I'm <span class="typed"></span></h1> -->
+        <!-- <p>designer, developeur, photographer</p> -->
+        <ul class="title-links list-unstyled">
+          <li><a href="#header" class="smoothScroll">Inicio</a></li>
+          <li><a href="#about" class="smoothScroll">Sobre Mi</a></li>
+          <li><a href="#services" class="smoothScroll">CV</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portafolio</a></li>
+          <li><a href="#contact" class="smoothScroll">Contacto</a></li>
+        </ul>
+        <ul class="list-unstyled list-social" style="display:block; margin-left: auto; margin-right: auto;">
+          <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
+          <!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <!-- <li><a href="#"><i class="ion-social-dribbble"></i></a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        
+        <div class="col-lg-7" style="padding-left: 0px;">
+          <!-- <div class="div-img-bg"> -->
+            <!-- <div class="about-img"> -->
+              <img src="images/me.jpg" class="img-responsive" alt="me" style="width: 100%;">
+            <!-- </div> -->
+          <!-- </div> -->
         </div>
-    </div><!-- /.hero -->
 
-    <main id="main" class="site-main">
-
-        <section id="about" class="site-section section-about text-center">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/img/paola.jpg" class = "img-responsive" width = "100%"  alt="paola">
-                    </div>
-                    <div class="col-md-6"> 
-                        <!-- col-md-offset-3 -->
-                        <h4>Sobre Mi</h4>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <div class="row">
-                            <div class="col-md-7 col-md-offset-3">
-                                <div class="text-center">
-                                    <p class="text-justify">Detallista, seria y creativa. Me parece que esas tres palabras definen bastante bien mi enfoque en el desempeño del diseño. <br><br>
-            
-                                        Estudiante de diseño gráfico en el Instituto Creativo Digital (CDD / ICD) y estudiante en general de la vida. Me interesan muchos campos de diseño y del ámbito creativo; Motion graphics, animación, ilustración de cuentos infantiles e ilustración vectorial. Por el lado del diseño sigo la línea de lo artístico más no de lo ambiguo. <br><br>
-                                        
-                                        No solamente aspiro a formar parte de gremios de diseñadores, espero en un futuro cercano formar parte de equipos de producción audiovisual. Video y música (sobretodo música) dos elementos que juntos y en concordancia pueden trabajar para ambientar, descolocar o cautivar a las personas. <br><br>
-                                        
-                                        Por los momentos no tengo más que una pasión creciente por sacar todas mis ideas, equivocarme, revaluar, corregir y volverlo a intentar. Hay que comenzar a sacar las ideas a la luz porque en la oscuridad no se ven las imperfecciones.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a> -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-about -->
-        <section id="service" class="site-section section-services overlay text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <img src="assets/img/paola.jpg" class = "img-responsive" width = "100%"  alt="paola">
-                            </div>
-                        </div>
-                        <br>
-                        <h3>Curriculum Vitae</h3>
-                        <h1>Soy <span class="typed"></span></h1>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                    </div>
-                    <!-- <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Front End Developer">
-                            <h4>Front-end</h4>
-                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/back-end.svg" alt="Back End Developer">
-                            <h4>Back-end</h4>
-                            <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
-                        </div>
-                    </div> -->
-                    <!-- <section class="site-section section-skills"> -->
-                        <!-- <div class="container"> -->
-
-                            <div class="row">
-                                <div class="text-left" style="margin-bottom: 5vh;">
-                                    <h4>Educacion</h4>
-                                    <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Diseno Grafico
-                                            </h5>
-                                            <p>Instituto de diseño digital (CDD), Ccs.
-                                                Diseño Gráfico.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2018-2020</div>
-                                    </div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Universidad Santa María, Ccs. Arquitectura.
-                                            </h5>
-                                            <p>Cambio de Carrera.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2016-2018</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <!-- idiomas -->
-                            <div class="row">
-                                <div class="text-left" style="margin-bottom: 5vh;">
-                                    <h4>Idiomas</h4>
-                                    <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="skill">
-                                        <h4>Espanol</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="skill">
-                                        <h4>Ingles</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="skill">
-                                        <h4>Italiano</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="35"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                </div>
-                            </div>
-
-                            <br>
-                            <br>
-                            <br>
-
-                            <div class="row">
-                                <div class="text-left" style="margin-bottom: 5vh;">
-                                    <h4>Curson con Certificacion</h4>
-                                    <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Curso de Autocad.
-                                            </h5>
-                                            <p>realizado en Instituto Arts.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2017</div>
-                                    </div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Curso de Illustrator.
-                                            </h5>
-                                            <p>realizado en Instituto Arts.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2018</div>
-                                    </div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Curso de Photoshop.
-                                            </h5>
-                                            <p>realizado en Instituto Arts.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2018</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-
-                            <div class="row">
-                                <div class="text-left" style="margin-bottom: 5vh;">
-                                    <h4>Experiencia Laboral</h4>
-                                    <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Beca trabajo ICD/CDD.
-                                            </h5>
-                                            <p>Manejo de las redes sociales y creación de contenido.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2020</div>
-                                    </div>
-                                    <div>
-                                        <div class="col-md-10 text-left">
-                                            <h5>
-                                                Trabajo temporal como recepcionista de corredor de Seguros.
-                                            </h5>
-                                            <p>Trabajo de administración y organización de información.</p>
-                                        </div>
-                                        <div class="col-md-2" style="font-weight: bold;">2018</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-                                <div class="text-left" style="margin-bottom: 5vh;">
-                                    <h4>Habilidades</h4>
-                                    <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="skill">
-                                        <h4>AutoCad</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                    <div class="skill">
-                                        <h4>InDesign</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                    <div class="skill">
-                                        <h4>Illustrator</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="skill">
-                                        <h4>Photoshop</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                    <div class="skill">
-                                        <h4>After Effects</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="35"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                    <div class="skill">
-                                        <h4>Ableton Live 10 Suite</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="30"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="skill">
-                                        <h4>Premier Pro</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="40"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                    <div class="skill">
-                                        <h4>Adobe Audition</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="20"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                    <div class="skill">
-                                        <h4>Clip Studio Paint Pro</h4>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" data-transitiongoal="25"></div><!-- /.progress-bar -->
-                                        </div><!-- /.progress -->
-                                    </div><!-- /.skill -->
-                                </div>
-                            </div>
-
-
-                        <!-- </div> -->
-                    <!-- </section> -->
-                    <!-- /.secton-skills -->
-                </div>
-            </div>
-
-        </section><!-- /.secton-services -->
-
-        <section id="portfolio" class="site-section section-portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h3>Portafolio</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/foto1.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/foto2.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/foto3.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/foto4.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/foto5.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/foto6.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.secton-portfolio -->
-
-        <!-- <section class="site-section section-counters text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="10" data-speed="2000">0</p>
-                        <h4>Years Experience</h4>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="120" data-speed="2000">0</p>       
-                        <h4>Projects Delivered</h4>      
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
-                        <h4>Seconds on this site!<br>What are you waiting for?</h4>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- /.section-counters -->
-
-        <section id="contact" class="site-section section-form text-center">
-            <div class="container">
-
-                <h3>Contacto</h3>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <form>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
-                        </div>
-                    </div>
-                    <button href="#" class="btn btn-border" type="submit">Contratame <span class="glyphicon glyphicon-send"></span></button>
-                </form>
-            </div>
-        </section><!-- /.section-form -->
-
-    </main><!-- /#main -->
-
-    <footer id="colophon" class="site-footer">
+        <div class="col-lg-5" style="padding: 0 5% 0 5%;">
+          <div class="about-descr">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
-                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
-                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
-                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
-                </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
-                <div class="col-sm-4 col-xs-3">
-                    <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
-                    </div>
-                </div>
-            </div>
+          <div class="section-title text-left">
+            <h2 style="padding-left: 7vw;">Sobre Mi</h2>
+          </div>
         </div>
-    </footer><!-- /#footer -->
+            <!-- <p class="p-heading"></p> -->
+            <!-- Me parece que esas tres palabras definen bastante bien mi enfoque en el desempeño del diseño.  -->
+            <p class="separator text-justify">Detallista, seria y creativa. Estudiante de diseño gráfico en el Instituto Creativo Digital (CDD / ICD) y estudiante en general de la vida. Me interesan muchos campos de diseño y del ámbito creativo; Motion graphics, animación, ilustración de cuentos infantiles e ilustración vectorial. Por el lado del diseño sigo la línea de lo artístico más no de lo ambiguo. <br>
+                                        
+              No solamente aspiro a formar parte de gremios de diseñadores, espero en un futuro cercano formar parte de equipos de producción audiovisual. Video y música (sobretodo música) dos elementos que juntos y en concordancia pueden trabajar para ambientar, descolocar o cautivar a las personas. <br>
+              
+              Por los momentos no tengo más que una pasión creciente por sacar todas mis ideas, equivocarme, revaluar, corregir y volverlo a intentar. Hay que comenzar a sacar las ideas a la luz porque en la oscuridad no se ven las imperfecciones.</p>
 
-    <!-- Modals -->
-    <div id="portfolioItem1" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
           </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
-    <div id="portfolioItem2" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
 
-    <div id="portfolioItem3" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
-    <div id="portfolioItem4" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+  <!-- start section services -->
+  <div id="services" class="paddsection">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Curriculum Vitae</h2>
+      </div>
+    </div>
+    <div class="container">
 
-    <div id="portfolioItem5" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
-    <div id="portfolioItem6" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="#" class="btn btn-fill">Visit Page</a>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+      <div class="row">
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/skrollr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/typed.js"></script>
-  
+            <!-- <div> -->
+              <div class="col-md-6">
+                <div class="row text-left" >
+                  <h4>Educacion</h4>
+              </div>
+              <br>
+              <br>
+                <div class="row">
+                  <div class="col-md-8 text-left">
+                      <h5>
+                          Diseno Grafico
+                      </h5>
+                      <p>Instituto de diseño digital (CDD), Ccs.
+                          Diseño Gráfico.</p>
+                  </div>
+                  <div class="col-md-2 text-right" style="font-weight: bold;">2018-2020</div>
+                  <div class="col-md-8 text-left">
+                    <h5>
+                        Universidad Santa María, Ccs. Arquitectura.
+                    </h5>
+                    <p>Cambio de Carrera.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2016-2018</div>
+                <div class="col-md-8 text-left">
+                  <h5>
+                    Unidad Educativa Colegio Eugenia Ravasco, Ccs.
+                  </h5>
+                  <p>Primaria y Bachillerato.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2005-2016</div>
+              </div>
+              </div>
+              <!-- style="position: relative;width: 100%;" -->
+                <div class="col-md-6 text-right" >
+                  <img src="images/3editcopia.jpg" class="img-responsive" alt="me" style="width: 100%;">
+                  <!-- style="position: absolute;   top: 10%; right: 5%; width: 100%;" -->
+                  <h1 class="typed-block" >Soy <span class="typed"></span></h1>
+                </div>
+            <!-- </div>
+            <div> -->
+ 
+            <!-- </div> -->
+
+    </div>
+
+    <br>
+    <br>
+
+    <!-- idiomas -->
+    <div class="row text-left" style="margin-bottom: 5vh;">
+        <h4>Idiomas</h4>
+        <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="skill">
+                <h4>Espanol</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+        </div>
+        <div class="col-md-4">
+            <div class="skill">
+                <h4>Ingles</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+        </div>
+        <div class="col-md-4">
+            <div class="skill">
+                <h4>Italiano</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="row text-left" style="margin-bottom: 5vh;">
+        <h4>Curson con Certificacion</h4>
+        <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
+    </div>
+    <div class="row">
+        <!-- <div> -->
+            <!-- <div> -->
+                <div class="col-md-10 text-left">
+                    <h5>
+                        Curso de Autocad.
+                    </h5>
+                    <p>realizado en Instituto Arts.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2017</div>
+            <!-- </div> -->
+            <!-- <div> -->
+                <div class="col-md-10 text-left">
+                    <h5>
+                        Curso de Illustrator.
+                    </h5>
+                    <p>realizado en Instituto Arts.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2018</div>
+            <!-- </div> -->
+            <!-- <div> -->
+                <div class="col-md-10 text-left">
+                    <h5>
+                        Curso de Photoshop.
+                    </h5>
+                    <p>realizado en Instituto Arts.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2018</div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </div>
+    <br>
+
+    <div class="row text-left" style="margin-bottom: 5vh;">
+        <h4>Experiencia Laboral</h4>
+        <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
+    </div>
+    <div class="row">
+        <!-- <div> -->
+            <!-- <div> -->
+                <div class="col-md-10 text-left=">
+                    <h5>
+                        Beca trabajo ICD/CDD.
+                    </h5>
+                    <p>Manejo de las redes sociales y creación de contenido.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2020</div>
+            <!-- </div> -->
+            <!-- <div> -->
+                <div class="col-md-10 text-left">
+                    <h5>
+                        Trabajo temporal como recepcionista de corredor de Seguros.
+                    </h5>
+                    <p>Trabajo de administración y organización de información.</p>
+                </div>
+                <div class="col-md-2 text-right" style="font-weight: bold;">2018</div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </div>
+
+    <br>
+
+    <div class="row text-left" style="margin-bottom: 5vh;">
+        <h4>Habilidades</h4>
+        <!-- <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
+    </div>
+    <div class="row paola-skils">
+        <div class="col-md-4">
+            <div class="skill">
+                <h4>AutoCad</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+            <div class="skill">
+                <h4>InDesign</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+            <div class="skill">
+                <h4>Illustrator</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+        </div>
+        <div class="col-md-4">
+            <div class="skill">
+                <h4>Photoshop</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+            <div class="skill">
+                <h4>After Effects</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+            <div class="skill">
+                <h4>Ableton Live 10 Suite</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+        </div>
+        <div class="col-md-4">
+            <div class="skill">
+                <h4>Premier Pro</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+            <div class="skill">
+                <h4>Adobe Audition</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+            <div class="skill">
+                <h4>Clip Studio Paint Pro</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div><!-- /.skill -->
+        </div>
+    </div>
+
+        <!-- <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-ios-browsers-outline"></i>
+            <span>UI/UX DESIGN</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-lightbulb-outline"></i>
+            <span>BRAND IDENTITY</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>WEB DESIGN</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-android-outline"></i>
+            <span>MOBILE APPS</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-analytics-outline"></i>
+            <span>Analytics</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-camera-outline"></i>
+            <span>PHOTOGRAPHY</span>
+            <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+
+          </div>
+
+        </div> -->
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Portafolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+          <!-- logos
+              afiches
+              empaques
+              collage digital
+              ilustracion digital -->
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".logos">logos</li>
+              <li class="filter" data-filter=".afiches">afiches</li>
+              <li class="filter" data-filter=".empaques">empaques</li>
+              <li class="filter" data-filter=".collage">collage digital</li>
+              <li class="filter" data-filter=".ilustracion">ilustracion digital</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all afiches ">
+              <a class="popup-img" href="images/portfolio/2.jpg">
+                <img src="images/portfolio/2.jpg"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all afiches  ">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img src="images/portfolio/3.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all afiches ">
+              <a class="popup-img" href="images/portfolio/4.jpg">
+                <img src="images/portfolio/4.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all  ilustracion">
+              <a class="popup-img" href="images/portfolio/5.jpg">
+                <img src="images/portfolio/5.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all ilustracion">
+              <a class="popup-img" href="images/portfolio/6.jpg">
+                <img src="images/portfolio/6.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all afiches">
+              <a class="popup-img" href="images/portfolio/7.jpg">
+                <img src="images/portfolio/7.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all logos">
+              <a class="popup-img" href="images/portfolio/8.jpg">
+                <img src="images/portfolio/8.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all afiches">
+              <a class="popup-img" href="images/portfolio/9.jpg">
+                <img src="images/portfolio/9.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all afiches">
+              <a class="popup-img" href="images/portfolio/10.jpg">
+                <img src="images/portfolio/10.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all empaques">
+              <a class="popup-img" href="images/portfolio/11.jpg">
+                <img src="images/portfolio/11.jpg" alt="img">
+              </a>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all empaques">
+              <a class="popup-img" href="images/portfolio/12.jpg">
+                <img src="images/portfolio/12.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all empaques">
+              <a class="popup-img" href="images/portfolio/13.jpg">
+                <img src="images/portfolio/13.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all empaques">
+              <a class="popup-img" href="images/portfolio/14.jpg">
+                <img src="images/portfolio/14.jpg" alt="img">
+              </a>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all collage">
+              <a class="popup-img" href="images/portfolio/15.jpg">
+                <img src="images/portfolio/15.jpg" alt="img">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">Contacto</h2>
+
+              <ul class="contact-details">
+                <li><span>1071, Caracas, Venezuela.</span></li>
+                <!-- <li><span>New York, United States</span></li> -->
+                <li><span>+58414XXXXXXX</span></li>
+                <li><span>paolaverrocchi@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Su mensaje ha sido enviado, Gracias!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Enviar Mensaje">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li> -->
+          <!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <!-- <li><a href="#"><i class="ion-social-dribbble"></i></a></li> -->
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Paola Verrocchi. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+        Designed by Paola Verrocchi & Associates
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
