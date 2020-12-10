@@ -465,8 +465,8 @@ nav ul li a {
 }
 
 .portfolio-thumbnail img {
-  max-width: 15vw;
-  /* width: 50vw; */
+  max-width: 18vw;
+  width: 50vw;
   height: 40vh;
   object-fit: cover;
   object-position: 50% 50%; /* try 20px 10px */ 
@@ -696,4 +696,5 @@ nav ul li a {
   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
   color: #ee6774;
   font-weight: bold;
+  margin-right: -0.61vw;
 }
